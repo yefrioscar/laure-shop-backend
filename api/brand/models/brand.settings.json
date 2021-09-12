@@ -1,15 +1,15 @@
 {
   "kind": "collectionType",
-  "collectionName": "categories",
+  "collectionName": "brands",
   "info": {
-    "name": "category",
-    "description": ""
+    "name": "Brand"
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
+  "pluginOptions": {},
   "attributes": {
     "name": {
       "type": "string"

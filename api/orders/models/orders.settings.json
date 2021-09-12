@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "Orders",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Direction": {
+      "type": "text"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "City": {
+      "type": "string"
+    },
+    "DeparmentId": {
+      "type": "string"
+    },
+    "PostalCode": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "products": {
+      "collection": "product"
+    }
+  }
+}
