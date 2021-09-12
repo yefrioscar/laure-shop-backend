@@ -123,7 +123,7 @@ module.exports = async () => {
       //const files = fs.readdirSync(`./data/uploads`);
       await setDefaultPermissions();
      // await createSeedData(files);
-      console.log("Ready to go");
+      console.log("Ready to go test");
     } catch (e) {
       console.log(e);
     }
