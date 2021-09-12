@@ -51,7 +51,7 @@ const isFirstRun = async () => {
     key: "initHasRun",
     value: true
   });
-  return true;
+  return initHasRun;
 };
 
 const getFilesizeInBytes = filepath => {
